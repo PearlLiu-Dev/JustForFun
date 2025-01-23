@@ -91,3 +91,6 @@ plt.show()
 print(f"Total Cells Detected in Brightfield: {total_cells}")
 print(f"GFP-Positive Cells Detected: {gfp_positive_count}")
 print(f"Transfection Efficiency: {transfection_efficiency:.2f}%")
+
+# Save the figure to a file
+plt.savefig('output_transfection_analysis.png', dpi=300, bbox_inches='tight')
